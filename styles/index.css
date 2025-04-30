@@ -32,7 +32,7 @@ nav{
     padding: 15px 30px;
 }
 #cp{
-    background-color: white;
+    background-color: #FFF0F5;
     border: 1px solid black;
     margin: 0;
     text-align: center;
@@ -59,9 +59,11 @@ nav{
     justify-content: center;
     width: 100%;
     position: relative;
+    margin: auto;
 }
 .slider-cont img {
-    max-width: 350px;
+    max-width: 500px;
+    max-height: 500px;
     height: auto;
     display: block;
     border-radius: 10px;
@@ -75,14 +77,19 @@ nav{
     background-color:grey;
     color: white;
     border: none;
-    padding: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transform: translateY(-50%);
+    z-index: 1;
     cursor: pointer;
+    border-radius: 50%;
 }
 .slider-cont button.prev {
-    left: 20px;
+    left: 100px;
 }
 .slider-cont button.next {
-    right: 20px;
+    right: 100px;
 }
 .slider-cont button:hover {
     background-color:black;
@@ -143,4 +150,99 @@ nav{
     font-family: cursive;
     font-size: 30px;
     font-weight: bolder;
+}
+#form input{
+    width: 70%;
+    padding: 10px;
+    margin-left:50px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#form select,textarea{
+    width: 70%;
+    padding: 10px;
+    margin-left:50px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    background-color: #5cb3ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:active{
+    background-color: ;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#booking h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#booking p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-left: 80px;
+}
+.event{
+    display: flex;
+    align-items: center;
+    background-color: #FFF0F5;
+}
+#options{
+    text-align: center;
+}
+#options h1{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#options p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.event h2{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 10px;
+}
+.event img{
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
 }

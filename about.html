@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./javascript/about.js" defer ></script>
 </head>
 <body>
     <header>
@@ -24,9 +25,25 @@
             </ul>
         </nav>
         </header>
-    <footer>
+        <div id="about">
+            <h1>About Us</h1>
+            <p>Welcome to Charmful Events, where we turn your dreams into reality! We are a premier event planning company dedicated to creating unforgettable experiences for our clients. With a passion for creativity and attention to detail, we specialize in organizing a wide range of events, including weddings, corporate gatherings, parties, and more.</p>
+            <p>At Charmful Events, we understand that every event is unique, and we take the time to listen to your vision and preferences. Our team of experienced professionals will work closely with you to design and execute an event that reflects your style and exceeds your expectations.</p>
+            <p>From venue selection and decor to catering and entertainment, we handle every aspect of event planning with precision and care. Our goal is to ensure that you can relax and enjoy your special day while we take care of all the details.</p>
+            <p>Thank you for considering Charmful Events for your next celebration. We look forward to making your event truly memorable!</p>
+            <h1>Our Team</h1>
+                <div class="slider-cont">
+                    <button class="prev" onclick="movesSlide(-1)">&#10094;</button>
+                    <img  src="./images/chefs.jpeg" alt="chef" >
+                    <img src="./images/service.jpeg" alt="service" >
+                    <img src="./images/decor.jpeg" alt="decor" >
+                    <img src="./images/photography.jpeg" alt="photographer" >
+                    <img src="./images/at work.jpeg" alt="at work" >
+                    <button class="next" onclick="movesSlide(1)">&#10095;</button>
+                </div>
+    <footer id="footer">
         <div id="social">
-           <h4 id="contact">contact info</h4>
+           <h4 id="contact">Contact Info:</h4>
            <ul>
                <li>+254742765800</li>
                <li>+254707082756</li>
@@ -43,7 +60,7 @@
            </ul>
         </div>
         <div id="locate">
-           <h4 id="us">locate us</h4>
+           <h4 id="us">Locate Us:</h4>
            <ul>
                <li>Westlands,Nairobi and Nairobi CBD at RNG plaza 1st floor A795</li>
                <li>Kisumu Town</li>
@@ -51,8 +68,8 @@
                <li>thika town near MKU</li>
            </ul>
         </div>
-        <div id="cp">
-           <h4>@copyright2025.All rights Reserved</h4>
+        <div id="cp2">
+           <h4 id="h4">@copyright2025.All rights Reserved</h4>
         </div>
    </footer>
 </body>

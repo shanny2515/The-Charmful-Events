@@ -246,3 +246,7 @@ button:active{
     margin-left: 150px;
     margin-top: 50px;
 }
+#booking p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 200px;
+}

@@ -33,13 +33,9 @@
             <p>Thank you for considering Charmful Events for your next celebration. We look forward to making your event truly memorable!</p>
             <h1>Our Team</h1>
                 <div class="slider-cont">
-                    <button class="prev" onclick="movesSlide(-1)">&#10094;</button>
-                    <img  src="./images/chefs.jpeg" alt="chef" >
-                    <img src="./images/service.jpeg" alt="service" >
-                    <img src="./images/decor.jpeg" alt="decor" >
-                    <img src="./images/photography.jpeg" alt="photographer" >
-                    <img src="./images/at work.jpeg" alt="at work" >
-                    <button class="next" onclick="movesSlide(1)">&#10095;</button>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <img id="slide" src="./images/chefs.jpeg" alt="chef" >
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
                 </div>
     <footer id="footer">
         <div id="social">
@@ -60,7 +56,7 @@
            </ul>
         </div>
         <div id="locate">
-           <h4 id="us">Locate Us:</h4>
+           <h4 id="us">Locate Us</h4>
            <ul>
                <li>Westlands,Nairobi and Nairobi CBD at RNG plaza 1st floor A795</li>
                <li>Kisumu Town</li>

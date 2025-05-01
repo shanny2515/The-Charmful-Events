@@ -170,7 +170,7 @@ nav{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-button{
+input[type="submit"]{
     background-color: #5cb3ff;
     color: white;
     border: none;
@@ -180,29 +180,33 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-button:active{
-    background-color: ;
+input[type="submit"]:hover{
+    background-color:  #FFF0F5;
+}
+input[type="submit"]:active{
+    background-color: #F2BDCD;
 }
 #form{
     display: flex;
     flex-direction: column;
     align-items: first baseline;
-    margin-top: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 #form label{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-bottom: 10px;
 }
-#booking h1{
+section h1{
     text-align: center;
     font-family: cursive;
     font-size: 50px;
     font-weight: bolder;
 }
-#booking p{
+section p{
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
@@ -255,5 +259,5 @@ button:active{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 200px;
 }
-
+    
 

@@ -16,7 +16,12 @@ nav li{
 nav li a{
     text-decoration: none;
     font-size: large;
-    
+}
+nav li a:hover{
+    color: #FFF0F5;
+}
+nav li a:active{
+    color: #F2BDCD;
 }
 header{
     background-color:  #5cb3ff;
@@ -250,3 +255,5 @@ button:active{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 200px;
 }
+
+

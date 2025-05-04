@@ -186,7 +186,7 @@ input[type="submit"]{
     cursor: pointer;
 }
 input[type="submit"]:hover{
-    background-color:  #FFF0F5;
+    background-color:  #8a425a;
 }
 input[type="submit"]:active{
     background-color: #F2BDCD;
